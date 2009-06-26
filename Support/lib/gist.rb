@@ -84,7 +84,7 @@ module Gist
     when /source\.shell/ : "sh"
     when /source\.tcl/, "text.html.tcl" : "tcl"
     when /source\.lex/ : "tex"
-    when /text\.xml/, /text.xml.xsl/, /source.plist/, /text.xml.plist/ : "xml"
+    when /text\.xml/, /text\.xml\.xsl/, /source\.plist/, /text\.xml\.plist/ : "xml"
     else "txt"
     end
   end
