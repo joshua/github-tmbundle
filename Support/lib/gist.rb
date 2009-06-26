@@ -11,7 +11,6 @@ module Gist
   @@files = []
 
   def read(gist_id)
-    return help if gist_id == '-h' || gist_id.nil? || gist_id[/help/]
     open(@@gist_url % gist_id).read
   end
   
