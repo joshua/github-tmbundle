@@ -21,7 +21,7 @@ module Gist
     save_files
   end
   
-  def send(private_gist)
+  def write(private_gist)
     load_files
     url = URI.parse('http://gist.github.com/gists')
     req = Net::HTTP.post_form(url, data(private_gist))
