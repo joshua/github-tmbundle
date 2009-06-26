@@ -57,7 +57,7 @@ module Gist
     case scope
     when /source\.actionscript/ : "as"
     when /source\.c/, /source\.objc/ : "c"
-    when /source\.c\+\+/, /source.objc\+\+/ : "cpp"
+    when /source\.c\+\+/, /source\.objc\+\+/ : "cpp"
     # common-lisp-mode : "el"
     when /source\.css/ : "css"
     when /source\.diff/, "meta.diff.range" : "diff"
