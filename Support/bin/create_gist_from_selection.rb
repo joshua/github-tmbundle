@@ -5,4 +5,4 @@ require "gist"
 
 Gist.clear
 Gist.process_selection
-Gist.send(ARGV[0] == "private")
+Gist.write(ARGV[0] == "private")
