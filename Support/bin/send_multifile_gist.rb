@@ -3,4 +3,4 @@
 $:.unshift(File.dirname(__FILE__) + "/../lib")
 require "gist"
 
-Gist.send(ARGV[0] == "private")
+Gist.write(ARGV[0] == "private")
